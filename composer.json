@@ -1,7 +1,8 @@
 {
     "name": "gjb7/is421-elastic-search",
     "require": {
-        "nervetattoo/elasticsearch": "~2.4"
+        "nervetattoo/elasticsearch": "~2.4",
+        "ricardoper/twitteroauth": "~2.0"
     },
     "authors": [
         {

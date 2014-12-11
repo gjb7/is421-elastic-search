@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "62ba6a6e66264a7227e37e722ea88811",
+    "hash": "b8687d164a852038ed35f74621669713",
     "packages": [
         {
             "name": "nervetattoo/elasticsearch",
@@ -50,6 +50,54 @@
                 "elasticsearch"
             ],
             "time": "2014-08-07 08:27:42"
+        },
+        {
+            "name": "ricardoper/twitteroauth",
+            "version": "v2.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ricardoper/TwitterOAuth.git",
+                "reference": "db511411682c496640f7579fb3a5f2457bd0ff46"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ricardoper/TwitterOAuth/zipball/db511411682c496640f7579fb3a5f2457bd0ff46",
+                "reference": "db511411682c496640f7579fb3a5f2457bd0ff46",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "lib-curl": "*",
+                "lib-openssl": "*",
+                "php": ">=5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TwitterOAuth\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ricardo Pereira",
+                    "email": "github@ricardopereira.es",
+                    "homepage": "http://ricardopereira.es"
+                }
+            ],
+            "description": "PHP library to communicate with Twitter OAuth API version 1.1",
+            "homepage": "https://github.com/ricardoper",
+            "keywords": [
+                "API v1.1",
+                "oauth",
+                "php",
+                "twitter"
+            ],
+            "time": "2014-12-10 17:22:25"
         }
     ],
     "packages-dev": [],
