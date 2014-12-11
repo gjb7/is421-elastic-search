@@ -1,0 +1,12 @@
+{
+    "name": "gjb7/is421-elastic-search",
+    "require": {
+        "nervetattoo/elasticsearch": "~2.4"
+    },
+    "authors": [
+        {
+            "name": "Grant J. Butler",
+            "email": "gjb7@njit.edu"
+        }
+    ]
+}
