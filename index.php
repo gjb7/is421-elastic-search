@@ -30,7 +30,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="#about">Search by String</a></li>
-            <li><a href="#about">Search by User</a></li>
+            <li><a href="#about">Search by String and User</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
