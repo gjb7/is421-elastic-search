@@ -25,7 +25,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Project name</a>
+          <a class="navbar-brand" href="#">Elasticsearch</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
@@ -40,9 +40,14 @@
     <div class="container">
 
       <div class="starter-template">
-        <h1>Bootstrap starter template</h1>
-        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+        <h1>Elasticsearch Project</h1>
+        <p class="lead">For this project you need to create an application that periodically retrieves tweets (once every minute) from the public timeline of twitter and then store these tweets inside elastic search.  You then need to create a page that has a search text input field that allows someone to search the tweets.  The results page for the search should have at least one filter that allows the end user to limit the search results to display only the selected tweet author.</p>
       </div>
 
     </div><!-- /.container -->
+    <footer class="footer">
+    	<div class="container">
+    		<p class="muted-text">Elasticsearch project by Grant and Giuseppe</p>
+    	</div>
+    </footer>
 </html>
