@@ -1,0 +1,22 @@
+body{
+	padding: 80px 15px;
+}
+div.starter-template{
+	text-align: center;
+}
+.footer{
+	position: fixed;
+	bottom: 0px;
+	left: 0;
+	right: 0;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+div.container p.muted-text{
+	margin: 10px 0px;
+	line-height: 75px;
+}
+.muted-text{
+	color: rgb(119, 119, 119);
+}
