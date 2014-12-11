@@ -1,3 +1,8 @@
+<?php
+	require 'Autoloader.php';
+	spl_autoload_register('autoloader');
+	new classes\app();
+?>
 <!DOCTYPE html>
 <html>
 	<head>
@@ -25,17 +30,18 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Elasticsearch</a>
+          <a class="navbar-brand" href="index.php">Elasticsearch</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#about">Search by String</a></li>
+            <li><a href="index.php?page=classes\searchtext">Search by String</a></li>
             <li><a href="#about">Search by String and User</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
     </nav>
 
+	<?php if(empty($_GET)) { ?>
     <div class="container">
 
       <div class="starter-template">
@@ -44,6 +50,7 @@
       </div>
 
     </div><!-- /.container -->
+    <?php } ?>
     <footer class="footer">
     	<div class="container">
     		<p class="muted-text">Elasticsearch project by Grant and Giuseppe</p>
