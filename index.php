@@ -35,7 +35,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php?page=classes\searchtext">Search by String</a></li>
-            <li><a href="#about">Search by String and User</a></li>
+            <li><a href="index.php?page=classes\searchuser">Search by String and User</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
