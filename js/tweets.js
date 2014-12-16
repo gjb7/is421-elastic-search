@@ -27,7 +27,7 @@ $(function() {
     var query = queryFormat.replace(/{QUERY}/ig, searchString);
     
     if (userSearchString) {
-      query = '(' + query + ') AND user.username:"' + userSearchString + '"';
+      query = '(' + query + ') AND user.screen_name:"' + userSearchString + '"';
     }
     
     client.search({
