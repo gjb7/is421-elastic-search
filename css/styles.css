@@ -20,3 +20,6 @@ div.container p.muted-text{
 .muted-text{
 	color: rgb(119, 119, 119);
 }
+div.alert-danger{
+	margin-top: 40px;
+}
