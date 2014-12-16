@@ -50,7 +50,7 @@ $(function() {
         // TODO: Do something with tweets.
       }
       else {
-        var divTag = $('<div class="alert alert-danger" role="alert">There are no tweets that match your search criteria</div>');
+        var divTag = $('<div class="alert alert-danger" role="alert">There are <strong>no</strong> tweets that match your search criteria</div>');
         content.append(divTag);
       }
     });
