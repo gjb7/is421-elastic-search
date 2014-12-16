@@ -47,7 +47,9 @@ $(function() {
       if (hasTweets) {
         var tweets = response.hits.hits;
         
-        // TODO: Do something with tweets.
+        tweets.forEach(function(tweet) {
+          twttr.widgets.createTweet(tweet._source.id_str, document.getElementById('content'), { });
+        });
       }
       else {
         var divTag = $('<div class="alert alert-danger" role="alert">There are <strong>no</strong> tweets that match your search criteria</div>');
