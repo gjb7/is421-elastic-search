@@ -25,7 +25,7 @@ if (file_exists('last_id.json')) {
 
 $params = array(
 	'count' => 100,
-	'geocode' => '37.7833,122.4167,2.5mi',
+	'geocode' => '37.7833,122.4167,100mi',
 	'result_type' => 'recent'
 );
 
