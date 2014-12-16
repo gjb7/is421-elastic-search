@@ -23,3 +23,6 @@ div.container p.muted-text{
 div.alert-danger{
 	margin-top: 40px;
 }
+div.content{
+	margin-bottom: 40px;
+}
