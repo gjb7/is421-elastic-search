@@ -1,6 +1,6 @@
 $(function() {
   var client = new elasticsearch.Client({
-    host: 'localhost:9200'
+    host: 'elastic-search.grantjbutler.com:9200'
   });
   
   var searchField = $('#search');
