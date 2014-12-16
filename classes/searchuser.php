@@ -9,9 +9,9 @@
 				<h2>Search text by String and User<h2>
 			</div>
 			<div class="container">
-				Search text: <input type="text" name="search">
-				Search user: <input type="text" name="user">
-				<input type="submit" name="submit">
+				Search text: <input type="text" name="search" id="search">
+				Search user: <input type="text" name="user" id="user">
+				<input type="submit" name="submit" id="submit">
 			</div>';
 		}
 	}

@@ -9,8 +9,8 @@
 				<h2>Search text by String<h2>
 			</div>
 			<div class="container">
-				Search text: <input type="text" name="search">
-				<input type="submit" name="submit">
+				Search text: <input type="text" name="search" id="search">
+				<input type="submit" name="submit" id="search">
 			</div>';
 		}
 	}
