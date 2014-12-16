@@ -8,7 +8,7 @@ $(function() {
   var content = $('#content');
   
   $('#submit').click(function() {
-    content.remove('.alert');
+    $('.alert').remove();
     
     var searchString = searchField.val().trim();
     var userSearchString = searchUserField.length ? searchUserField.val().trim() : null;
