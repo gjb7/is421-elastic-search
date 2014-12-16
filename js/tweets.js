@@ -33,8 +33,22 @@ $(function() {
       index: 'twitter',
       type: 'tweets',
       q: query
-    }, function(error, resposne) {
-      console.log(arguments);
+    }, function(error, response) {
+      if (error) {
+        alert(error);
+        
+        return;
+      }
+      
+      var hasTweets = (response.hit.total > 0);
+      if (hasTweets) {
+        var tweets = response.hit.hits;
+        
+        // TODO: Do something with tweets.
+      }
+      else {
+        // TODO: Show that no tweets matched the query.
+      }
     });
   });
 });
