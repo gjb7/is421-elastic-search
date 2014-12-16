@@ -1,4 +1,4 @@
-(function() {
+$(function() {
   var client = new elasticsearch.Client({
     host: 'localhost:9200'
   });
@@ -38,4 +38,4 @@
       console.log(arguments);
     });
   });
-})();
+});
