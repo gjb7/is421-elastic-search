@@ -8,7 +8,7 @@
 			<div class="container">
 				<h2>Search text by String<h2>
 			</div>
-			<div class="container">
+			<div class="container" id="content">
 				Search text: <input type="text" name="search" id="search">
 				<input type="submit" name="submit" id="submit">
 			</div>';

@@ -47,7 +47,8 @@ $(function() {
         // TODO: Do something with tweets.
       }
       else {
-        // TODO: Show that no tweets matched the query.
+        var divTag = $('<div class="alert alert-danger" role="alert">There are no tweets that match your search criteria</div>');
+        $('#content').append(divTag);
       }
     });
   });
