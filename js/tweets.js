@@ -9,6 +9,7 @@ $(function() {
   
   $('#submit').click(function() {
     $('.alert').remove();
+    $('.twitter-tweet').remove();
     
     var searchString = searchField.val().trim();
     var userSearchString = searchUserField.length ? searchUserField.val().trim() : null;
