@@ -40,9 +40,9 @@ $(function() {
         return;
       }
       
-      var hasTweets = (response.hit.total > 0);
+      var hasTweets = (response.hits.total > 0);
       if (hasTweets) {
-        var tweets = response.hit.hits;
+        var tweets = response.hits.hits;
         
         // TODO: Do something with tweets.
       }
