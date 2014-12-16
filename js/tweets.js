@@ -5,8 +5,11 @@ $(function() {
   
   var searchField = $('#search');
   var searchUserField = $('#user');
+  var content = $('#content');
   
   $('#submit').click(function() {
+    content.remove('.alert');
+    
     var searchString = searchField.val().trim();
     var userSearchString = searchUserField.length ? searchUserField.val().trim() : null;
     
@@ -48,7 +51,7 @@ $(function() {
       }
       else {
         var divTag = $('<div class="alert alert-danger" role="alert">There are no tweets that match your search criteria</div>');
-        $('#content').append(divTag);
+        content.append(divTag);
       }
     });
   });
