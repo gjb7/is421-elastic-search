@@ -9,7 +9,7 @@ $(function() {
   
   $('#submit').click(function() {
     var searchString = searchField.val().trim();
-    var userSearchString = searchUserField.length ? searchField.val().trim() : null;
+    var userSearchString = searchUserField.length ? searchUserField.val().trim() : null;
     
     if (searchString.length <= 0) {
       alert('Please enter a valid search string.');
