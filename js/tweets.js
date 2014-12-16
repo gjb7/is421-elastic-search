@@ -5,7 +5,6 @@ $(function() {
   
   var searchField = $('#search');
   var searchUserField = $('#user');
-  var queryFormat = 'text:"* {QUERY} *" OR "{QUERY} *" OR "* {QUERY}"';
   
   $('#submit').click(function() {
     var searchString = searchField.val().trim();
@@ -24,10 +23,10 @@ $(function() {
     }
     
     
-    var query = queryFormat.replace(/{QUERY}/ig, searchString);
+    var query = 'text:(+' + searchString + ')';
     
     if (userSearchString) {
-      query = '(' + query + ') AND user.screen_name:"' + userSearchString + '"';
+      query += ' AND user.screen_name:"' + userSearchString + '"';
     }
     
     client.search({
