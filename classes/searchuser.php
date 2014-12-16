@@ -10,6 +10,7 @@
 			</div>
 			<div class="container">
 				Search text: <input type="text" name="search">
+				Search user: <input type="text" name="user">
 				<input type="submit" name="submit">
 			</div>';
 		}
